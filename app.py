@@ -14,7 +14,7 @@ def main():
     st.title("Body Fat Percentage Prediction (Project for data Mining MIT_TAM)")
 
     # Input fields for user to enter features
-    age = st.number_input('Age', value=30, step=1)
+    age = st.number_input('Age', value=24, step=1)
     weight = st.number_input('Weight (kg)', value=65.0, step=0.1)
     height = st.number_input('Height (m)', value=1.85, step=0.01)
     neck = st.number_input('Neck circumference (cm)', value=40.0, step=0.1)
