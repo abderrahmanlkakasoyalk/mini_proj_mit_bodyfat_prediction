@@ -14,7 +14,6 @@ This project aims to predict body fat percentage using various regression algori
 - Converted weight from pounds to kilograms and height from inches to meters.
 - Calculated Body Mass Index (BMI) using weight and height.
 - Removed non-important features such as id, ankle, wrist, and forearm.
-- Renamed the 'class' column to 'BodyFat'.
 - Created additional features like Abdomen/Chest ratio (ACratio) and Hip/Thigh ratio (HTratio).
 
 ### Exploratory Data Analysis (EDA)
