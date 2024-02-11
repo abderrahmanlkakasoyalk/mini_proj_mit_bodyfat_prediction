@@ -11,7 +11,7 @@ def predict_body_fat(model_name, features):
     return prediction[0]
 
 def main():
-    st.title("Body Fat Percentage Prediction")
+    st.title("Body Fat Percentage Prediction (Project for data Mining MIT_TAM)")
 
     # Input fields for user to enter features
     age = st.number_input('Age', value=30, step=1)
